@@ -24,8 +24,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+$letterscolor: white; /*why is this getting overwritten?*/
+
 h1 {
-  color: blue;
+  color: $letterscolor;
 }
+
 </style>

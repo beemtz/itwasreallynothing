@@ -33,9 +33,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
+$letterscolor: green;
+
 h1 {
-  color: blue;
+  color: $letterscolor;
 }
 
 .columns {

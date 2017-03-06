@@ -39,8 +39,12 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+$letterscolor: #515135;
+
 h1 {
-  color: blue;
+  color: $letterscolor;
 }
+
 </style>

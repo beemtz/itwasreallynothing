@@ -11,5 +11,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import "~assets/styles/vars";
 @import "~bulma";
+@import "~assets/styles/main";
+body {
+  background: $useless;
+}
 </style>
