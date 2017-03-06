@@ -26,8 +26,4 @@ h1 {
   color: blue;
 }
 
-/*footer {
-  padding: 3rem 1.5rem 3rem;
-}*/
-
 </style>
