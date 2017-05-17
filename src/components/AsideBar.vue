@@ -3,16 +3,14 @@
     <aside class="menu">
       <p class="menu-label">Aside Title</p>
       <ul class="menu-list">
-        <li><a class="special-item">  <a
-          :href="stuff.slug"
-          v-for="stuff in asideStuff"
-          class="nav-item">
+        <li v-for="stuff in asideStuff" class="nav-item">
+          <a class="special-item" :href="stuff.slug">
           {{ stuff.name }}
-        </a></li>
-        <!-- ISSUE HERE! Since it's all in a single <li>/<a>, everything moves at the same time-->
-      </ul>
-    </aside>
-  </div>
+        </a>
+      </li>
+    </ul>
+  </aside>
+</div>
 </template>
 
 <script>
@@ -49,7 +47,7 @@ export default {
 $letterscolor: white;
 
 ul.menu-list {
-background-color: $info;
+  background-color: $info;
   a {
     position: relative;
     left: 0;
